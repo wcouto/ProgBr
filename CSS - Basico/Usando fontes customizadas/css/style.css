@@ -1,0 +1,12 @@
+h1 {
+    font-family: 'MinhaFonteCustomizada', cursive;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+}
+
+@font-face {
+    font-family: MinhaFonteCustomizada;
+    src: url(SEASRN__.ttf);
+}
