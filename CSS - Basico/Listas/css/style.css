@@ -1,0 +1,32 @@
+ul {
+    list-style-image: url(../assets/check-icon.png);
+    list-style-position: inside;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(100, 100, 247);
+}
+
+ol {
+    list-style-type: upper-alpha;
+    list-style-position: inside;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(238, 152, 255);
+
+}
+
+li {
+    border: 1px solid;
+    margin: 5px;
+    background-color: rgb(228, 226, 108);
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
