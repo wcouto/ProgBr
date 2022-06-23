@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+.cartao {
+    width: 800px;
+    height: 400px;
+    padding: 50px;
+    background: url(../images/backgorund.png) no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 300px;
+}
+
+.nome {
+    font-family: 'MinhaFonte';
+    font-style: bold;
+    font-size: 80px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'MinhaFonte';
+    font-style: bold;
+    font-size: 50px;
+}
+
+.linkedin {
+    list-style-image: url(../images/linkedin-icon.png);
+}
+
+.facebook {
+    list-style-image: url(../images/facebook-icon.png);
+}
+
+.steam {
+    list-style-image: url(../images/steam-icon.png);
+}
+
+@font-face {
+    font-family: MinhaFonte;
+    src: url(../fonts/GreatVibes-Regular.ttf);
+}
