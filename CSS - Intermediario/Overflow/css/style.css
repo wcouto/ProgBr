@@ -1,0 +1,15 @@
+#container {
+    color: red;
+    background-color: blue;
+    width: 300px;
+    height: 100px;
+    /* overflow: visible; Mostra o que ficou de fora */
+    /* overflow: hidden; Esconde o que ficou de fora */
+    /* overflow-y: scroll; Inclui um sroll para adequar container */
+    overflow: auto; /* Automatico */
+}
+
+img {
+    width: 500px;
+    height: 250px;
+}
