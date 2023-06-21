@@ -1,10 +1,10 @@
-var repeticao = 5;
+var numero = Math.random() * 100;
 
-for (var i = 0; i < repeticao; i++){
-    console.log(i);
-}
+// for (var i = 0; i < numero; i++){
+//     console.log(i);
+// }
 
-while (repeticao < 10){
-    console.log(repeticao);
-    repeticao++;
+while (numero < 90){
+    console.log(numero);
+    numero++;
 }
