@@ -9,4 +9,12 @@ function obj(nome, sobrenome){
 }
 
 //Terceira maneira
-function obj2(n, s)
+function obj2(n, s) {
+    this.nome = n;
+    this.sobrenome = s;
+}
+
+aluno = new obj2("Willian", "Couto");
+console.log(aluno);
+console.log(aluno["nome"]);
+console.log(aluno.sobrenome);
