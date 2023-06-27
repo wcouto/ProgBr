@@ -1,21 +1,31 @@
-function calcularMedia (n1, n2){
-    return (n1 + n2) / 2
-}
+//Array
+var alunos = ["Willian", "Karina"];
 
+//Objeto
 var aluno = {
     nome: "Willian",
-    notas: [7.5, 8],
-    media: calcularMedia
-}
-
-var aluno2 = {
-    nome: "Karina",
-    notas: [9, 10],
-    media: calcularMedia
+    notas: [7.5, 8]
 }
 
 console.log(aluno.nome);
-console.log(aluno.media(aluno.notas[0], aluno.notas[1]));
+console.log(aluno['notas']);
+console.log(aluno['notas'][0]);
 
-console.log(aluno2.nome);
-console.log(aluno2.media(aluno2.notas[0], aluno2.notas[1]));
+aluno.matricula = 1994;
+aluno["sobrenome"] = "Couto"
+
+var novaPropriedade = "faltas";
+aluno[novaPropriedade] = 25;
+
+console.log(aluno);
+
+//Outra maneira de declarar objeto
+var aluno2 = new Object();
+
+aluno2.nome = "Karina";
+aluno2.notas = [9, 9];
+aluno2["matricul"] = 1997;
+aluno2.sobrenome = "Avelar";
+aluno2.faltas = 10;
+
+console.log(aluno2);

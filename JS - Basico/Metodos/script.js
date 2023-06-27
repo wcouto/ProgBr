@@ -1,31 +1,21 @@
-//Array
-var alunos = ["Willian", "Karina"];
+function calcularMedia (){
+    return (this.notas[0] + this.notas[1]) / 2
+}
 
-//Objeto
 var aluno = {
     nome: "Willian",
-    notas: [7.5, 8]
+    notas: [7.5, 8],
+    media: calcularMedia
+}
+
+var aluno2 = {
+    nome: "Karina",
+    notas: [9, 10],
+    media: calcularMedia
 }
 
 console.log(aluno.nome);
-console.log(aluno['notas']);
-console.log(aluno['notas'][0]);
+console.log(aluno.media());
 
-aluno.matricula = 1994;
-aluno["sobrenome"] = "Couto"
-
-var novaPropriedade = "faltas";
-aluno[novaPropriedade] = 25;
-
-console.log(aluno);
-
-//Outra maneira de declarar objeto
-var aluno2 = new Object();
-
-aluno2.nome = "Karina";
-aluno2.notas = [9, 9];
-aluno2["matricul"] = 1997;
-aluno2.sobrenome = "Avelar";
-aluno2.faltas = 10;
-
-console.log(aluno2);
+console.log(aluno2.nome);
+console.log(aluno2.media());
